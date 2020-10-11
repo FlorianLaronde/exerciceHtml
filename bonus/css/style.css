@@ -1,0 +1,71 @@
+body {
+    height: 500px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+#box {
+    display: flex;
+    justify-content: space-around;
+}
+
+.colonne1 {
+    width: 30%;
+    height:100%
+}
+
+.img {
+
+    height: 280px;
+    width: 430px;
+}
+
+h2 {
+    color:#1787D2;
+} 
+
+h4 {
+    margin-top: 10px;
+}
+
+.divers {
+    color: white;
+    background-color: #1787D2 ;
+    margin-right: 78%;
+}
+
+.divers1 {
+    color: white;
+    background-color: #C71A1A ;
+    margin-right: 78%;
+}
+
+.sortie {
+    color: white;
+    margin-right: 84%;
+    background-color: #C71A1A;
+}
+
+.tourisme {
+    color: white;
+    background-color: #1787D2 ;
+    margin-right: 81%;
+}
+
+.election {
+    color: white;
+    background-color: #1787D2 ;
+    margin-right: 80%;
+}
+
+.boite {
+    position: relative;
+}
+
+.legende {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background-color:#1787D2;
+    padding: 4px 0 4px 0;
+}

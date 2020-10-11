@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice 7</title>
+    <link rel="stylesheet" href="css/style7.css">
+</head>
+<body>
+    <form class="identite">
+        <fieldset>
+            <legend>Votre identité</legend>
+            <ol>
+                <li>
+                    <div>
+                        <label for="nameinput">Nom :</label>
+                        <input type="text" name="name" id="nameinput" placeholder="Prénom" autofocus required>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="firstnameinput">Prénom :</label>
+                        <input type="text" name="firstnameinput" id="firstnameinput" placeholder="Nom" required>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="emailinput">Adresse Mail :</label>
+                        <input type="text" name="email" id="emailinput" placeholder="Adresse mail" required>
+                    </div>
+                </li>
+            </ol>
+        </fieldset>
+        </form>
+        <form class="adresse">
+        <fieldset>
+            <legend>Adresse de livraison</legend>
+            <ol>
+                <li>
+                    <div>
+                        <label for="adressemailinput">Adresse :</label>
+                        <textarea name="adressemailinput" id="adressemailinput" rows="5"></textarea>
+                       
+                    </div>  
+                </li>
+                <li>
+                    <div>
+                        <label for="codepostalinput">Code postal:</label>
+                        <input type="text" name="codepostalinput" id="codepostalinput" placeholder="Code postal" required>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <label for="villeinput">Prénom :</label>
+                        <input type="text" name="villeinput" id="villeinput" placeholder="Ville"  required>
+                    </div>
+                </li>
+            </ol>
+        </fieldset>
+        </form>
+        <form  class="info">
+            <fieldset >
+            <legend>Informations de réglement</legend>
+            <ol>
+                <li>
+                    <label for="Sexeinput">Votre type de carte bancaire</label>
+                    <div>
+                            <input type="radio" name="typecard">
+                            <label for="VISA">VISA</label>
+                    </div>
+                    <div>
+                            <input type="radio" name="typecard" id="feminin">
+                            <label for="Mastercard">Mastercard</label>
+                    </div>
+                </li>
+                <li>
+                    <label for="cardnumberinput">Numéro de carte :</label>
+                        <input type="text" name="cardnumberinput" id="cardnumberinput" placeholder="Numéro de carte"  required>
+                </li>
+                <li>
+                    <label for="securitycodeinput">Code de sécurité :</label>
+                        <input type="text" name="securitycodeinput" id="securitycodeinput" placeholder="Code de sécurité"  required>
+                </li>
+                <li>
+                    <label for="titularnameinput">Nom du titulaire :</label>
+                        <input type="text" name="titularnameinput" id="titularnameinput" placeholder="Nom du titulaire"  required>
+                </li>
+            </ol>
+        </fieldset>
+    </form>
+    <div>
+        <label>
+            <input type="submit" value="J'achète !">
+    </div>
+</body>
+</html>
